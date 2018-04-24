@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<div class="container">
+  <div id="swipe-page">
+    <i id="dislike-icon" class="icons fas fa-caret-down"></i>
+    <i id="like-icon" class="icons fas fa-caret-up"></i>
+
+    <div id="profile">
+      <blockquote>
+        <p id="comment1"></p>
+        <footer><span class="username"></span> on &ldquo;<span id="book1"></span>&rdquo;</footer>
+      </blockquote>
+      <blockquote>
+        <p id="comment2"></p>
+        <footer><span class="username"></span> on &ldquo;<span id="book2"></span>&rdquo;</footer>
+      </blockquote>
+      <blockquote>
+        <p id="comment3"></p>
+        <footer><span class="username"></span> on &ldquo;<span id="book3"></span>&rdquo;</footer>
+      </blockquote>
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-primary btn-custom" id="dislike-btn">Dislike</button>
+      <button type="button" class="btn btn-primary btn-custom" id="like-btn">Like</button>
+    </div>
+  </div>
+  <div id="profile-blank">
+    <p>Congratulations, you've met everyone!</p>
+  </div>
+</div>
+
+<!-- transform2d lib -->
+<script type="text/javascript" src="js/lib/jquery.transform2d.js"></script>
+<script src="scripts/swipe.js"></script>
